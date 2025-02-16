@@ -4,7 +4,7 @@ let pointArray;
 
 function preload(){
   
-  myFont= loadFont("./Comic Sans.ttf");
+  myFont= loadFont("Bigail.ttf");
 }
 
 function setup() {
