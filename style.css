@@ -51,7 +51,31 @@ main {
     background-size: 600% 600%;
     animation: gradientAnimation 10s ease infinite;
     text-align: center;
+
 }
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the links horizontally */
+    gap: 15px; /* Adjust spacing between links */
+}
+
+main a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #f4f4f4; /* Light gray background */
+    text-decoration: none;
+    color: #333; /* Dark text */
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s ease;
+}
+
+main a:hover {
+    background-color: #ddd; /* Slightly darker gray on hover */
+}
+
 
 @keyframes gradientAnimation {
     0% { background-position: 0% 50%; }
