@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo" id="logo">IZ</h1>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./music.html">Music</a></li>
+        </ul>
+    </header>
+
+    <main class="about-section">
+        <h1 class="about-title">ABOUT ME</h1>
+        <p class="about-text">
+            Hi! My name’s Isabel, and I’ve been immersed in the arts since I was in the 6th grade. Growing up in an art-focused environment shaped me into someone with a deep appreciation for exploring different forms of media. My creative journey started with photography—I spent a few years honing my eye for capturing moments. Then, I shifted my focus to graphic design, where I found joy in creating visually compelling works.
+        </p>
+        <p class="about-text">
+            Eventually, my passion for storytelling and interactive experiences led me to video games. I was captivated by the idea of creating my own game, but for a long time, I felt intimidated by coding. It seemed like this massive, complex world I wasn’t sure I could navigate. Over time, though, I started to pick up the basics, and now I love using coding to bring my creative ideas to life.
+        </p>
+    </main>
+
+    <footer>
+        &copy; 2025 Isabel Zlatev. All rights reserved.
+    </footer>
+
+    <script>
+        // Toggle dropdown menu
+        const logo = document.getElementById('logo');
+        const navLinks = document.getElementById('navLinks');
+
+        logo.addEventListener('click', () => {
+            navLinks.classList.toggle('dropdown');
+        });
+    </script>
+</body>
+</html>
